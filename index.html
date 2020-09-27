@@ -1,0 +1,191 @@
+
+<!doctype html>
+<html>
+<head>
+    <title> Kapittel 5-7 </title>
+    <!-- UTF-8 gjør at vi kan bruke æ, ø og å -->
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="stilark.css">
+</head>
+<body>
+    <h1> Felicias stygge hjemmeside </h1>
+    <br>
+    <p> <a href="https://www.lipsum.com/">Lorem Ipsum</a> has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    <br>
+    <br>
+
+
+ <!-- Bilde: -->
+<img src="bad teacher.jpg" alt="Bad teacher" width="400" height="224" >
+
+    <br>
+    <br>
+    <br>
+
+ <!-- Eksterne lenke: -->
+<a href="https://web.trondelagfylke.no/verdal-videregaende-skole/" target="_blank"> Verdal vgs</a>
+
+
+
+ <!-- Relative, interne lenker: -->
+<a href="meg.html">Om meg</a>
+<a href="overskrifter.html">Overskrifter</a>
+
+<br>
+<h2> Menyer </h2>
+ <!-- Loddrett meny med lenker: -->
+<ul class="lenker">    <!-- Bruk av CSS-klasser -->
+    <li> <a href="fill1.html"> Lenke 1 </a> </li>
+    <li> <a href="fill2.html"> Lenke 2 </a> </li>
+    <li> <a href="fill3.html"> Lenke 3 </a> </li>
+</ul class="lenker">
+    <br>
+
+<!-- Vannrett meny med lenker: -->
+<ul class="lenkervannrett">    <!-- Bruk av CSS-klasser -->
+    <li> <a href="fill4.html"> Lenke 4 </a> </li>
+    <li> <a href="fill5.html"> Lenke 5 </a> </li>
+    <li> <a href="fill6.html"> Lenke 6 </a> </li>
+</ul class="lenkervannrett">
+    <br>
+
+ <h2> Lister </h2>
+
+ <!-- Lister: -->
+<ol class="nystil">
+    <li> Vilhelm </li>
+    <li> Anna Sofie </li>
+    <li> Ingvald </li>
+</ol class="nystil">
+
+<ul class="nystil2">
+    <li> Vilhelm </li>
+    <li> Anna Sofie </li>
+    <li> Ingvald </li>
+</ul  class="nystil2">
+    <br>
+
+ <!-- Tabeller: en tabell defineres av <table>-elementet. En rad i en tabell angis med <tr>-elementet (table row). 
+ Et felt eller en celle i første rad i en tabell angis gjerne med <th>-elementet (table header), mens et felt 
+ eller en celle i resten av radene angis med <td>-elementet (table data). Ved å benytte et annet element for den 
+ første raden blir det lettere å gi den et eget utseende med CSS. -->
+
+
+    <h2> Tabell: de første Final Fantasy-spillene </h2>
+<table>
+    <tr>
+        <th> Navn </th>
+        <th> År </th>
+        <th> Konsoll </th>
+    </tr>
+    <tr>
+        <td> The Final Fantasy Legend (Makaitoushi SaGa) </td>
+        <td> 1989 </td>
+        <td> Game Boy </td>
+    </tr>
+    <tr>
+        <td> Final Fantasy Legend II (SaGa II) </td>
+        <td> 1991 </td>
+        <td> Game Boy </td>
+    <tr/>
+    <tr>
+        <td> Final Fantasy Legend III (SaGa III) </td>
+        <td> 1993 </td>
+        <td> Game Boy </td>
+    </tr>
+</table>
+<br>
+
+<!-- Lyd: -->
+<h2> Lyd </h2>
+<audio controls>
+    <source src="snore.flac" type="audio/flac">
+    Din nettleser støtter ikke audio-elementet
+</audio>
+<br>
+
+<!-- Video: -->
+<h2> Video </h2>
+<video with="300" height="250" controls>
+    <source src="glitter.mp4" type="video/mp4">
+    Din nettleser støtter ikke video-elementet.
+</video>
+<br>
+<br>
+
+<!-- Skjemaer: -->
+<h2> Skjemaer </h2>
+<form method="GET">
+    Hva er din favorittfilm?
+    <input type="text" name="favorittfilm">
+   
+    Hvilket er ditt favorittspill?
+    <input type="text" name="favorittspill">
+
+    <input type="submit" name="sendinn" value="Send inn">
+</form>
+
+<br>
+<br>
+
+
+<form method="GET">
+    Hvilken dag er det i dag?
+    <select name="dag">
+    <option value="mandag">Mandag</option>
+    <option value="tirsdag">Tirsdag</option>
+    <option value="onsdag">Onsdag</option>
+    <option value="torsdag">Torsdag</option>
+    <option value="fredag">Fredag</option>
+    <option value="lørdag">Lørdag</option>'
+    <option value="søndag">Søndag</option>
+    </select>
+    <input type="submit" name="sendinn" value="Send inn">
+</form>
+
+<br>
+<br>
+
+<form method="GET">
+    Hvilken farge liker du best?
+    <input type="radio" name="farge" value"rød"> Rød
+    <input type="radio" name="farge" value"gul"> Gul
+    <input type="radio" name="farge" value"blå"> Blå
+    <input type="radio" name="farge" value"grønn"> Grønn
+    <input type="submit" name="sendinn" value="Send inn">
+</form>
+
+<br>
+<br>
+
+<form method="GET">
+    Ditt navn
+    <input type="text" name="dittnavn">
+
+    Hva er din favorittmat?
+    <input type="text" name="favorittmat">
+
+    <input type="submit" name="sendinn" value="Send inn">
+</form>
+
+<br>
+
+<!-- Blokk-element: -->
+<div> Dette er et blokk-element   </div>
+<div> Dette er et blokk-element   </div>
+</body>
+</html>
+
+<br>
+
+<h2> Bakgrunnsbilder i block-element</h2>
+
+<div class="norepeat">  </div class="norepeat">
+
+<br>
+
+<div class="bakgrunn">  </div class="bakgrunn">
+
+</body>
+</html>

@@ -1,0 +1,143 @@
+body {
+    background-color: #e0e0e0; /* en lys gråfarge */
+    font-family: "Century Gothic", Arial, sans-serif;
+    font-size: 14px;
+    color: #323232; /* en svært mørk gråfarge */	
+}
+
+h1 {
+    color: #FF0000;
+}
+h2 {
+    color: #2D64F5;
+    font-family; serif;
+}
+
+div {
+    width:100px; 
+    padding:10px; 
+    border:5px solid #090909; 
+    margin:30px;
+}
+
+.norepeat {
+    background-image: url('colorful.png');
+    background-repeat: no-repeat;
+    width:330px; 
+    height: 220px;
+    padding:10px; 
+    border:5px solid #8cbe05; 
+    margin:30px;
+}
+
+.bakgrunn {
+    background-image: url('colorful.png');
+    background-repeat: repeat;
+    width:1000px; 
+    height: 500px;
+    padding:10px; 
+    border:5px solid #8cbe05; 
+    margin:30px;
+}
+
+.lenker li {
+    list-style-type: none; /*tar bort kulepunkter/nummering*/
+    margin: 0;
+    padding: 0;
+}
+.lenker li a {
+    display: block;
+    width: 120px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 2px;
+    color: #333333;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #8cbe05;
+}
+.lenker li a:hover {
+    background-color: #e7f1cc;
+}
+
+.lenkervannrett li {
+    list-style-type: none; /* fjerner kulepunkter */
+    margin: 10px; /*mellomrom*/
+    padding: 0px; /*fjerner alle mellomrom*/
+}
+.lenkervannrett li {
+    display: inline; /*gjør listepunktene til inline*/
+}
+.lenkervannrett li a {
+    padding: 10px 30px; /*avstand mellom bokskant og innhold*/
+    color: #333333;
+    font-weight: bold;
+    text-decoration: none; /*fjerner understrek*/
+    background-color: #f04605;
+}
+.lenkervannrett li a:hover {
+    background-color: #ebe584;
+}
+    
+    
+
+.nystil li {
+    background-color: #ebe584; /*gul bakgrunnsfarge*/
+    padding: 5px; 
+    margin: 2px;
+    width: 75px;
+    border-radius: 5px; /*avrunder kanter*/ 
+    list-style-type: none; /*tar bort kulepunkter/nummering*/
+}
+
+
+.nystil2 li {
+    background-color: #f04605; /*oransje bakgrunnsfarge*/
+    padding: 5px; 
+    margin: 2px;
+    width: 75px;
+    border-radius: 5px; /*avrunder kanter*/ 
+    list-style-type: none; /*tar bort kulepunkter/nummering*/
+}
+
+table {
+    border-collapse: collapse; /*fjerner mellomrom mellom rader/kolonner */
+}
+
+th {
+    background-color: #bcbe05;
+    border: 1px solid #000000;
+    padding: 5px;
+}
+td {
+    background-color: #e7f1cc;
+    border: 1px solid #000000;
+    padding: 5px;
+}
+a {
+    color: #dd0000; /*rød farge på lenke*/
+    font-weight: bold; /*fet tekst*/
+}
+
+a:hover {
+    color: #880000; /* mørk rød når muspekeren føres over lenken */
+    text-decoration: none;
+}
+
+input[type="text"] {
+    display: block; /*gjør om til blokk*/
+    width: 220px; /*tekstfeltets bredde*/
+    padding: 5px; /*avstans mellom bokskant og innhold*/
+    color: #666666;
+    border: none; /*ingen kantlinje*/
+    border-radius: 4px; /*avrunder kantlinjer*/
+    margin-bottom: 10px; /*luft nedenfor tekstfeltet*/
+}
+
+input[type="submit"] {
+    display: block; 
+    padding: 8px 15px; /*avstans mellom bokskant og innhold*/
+    font-weight: bold;
+    color: #8cde05;
+}
+    

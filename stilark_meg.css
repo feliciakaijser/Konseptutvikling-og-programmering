@@ -1,0 +1,130 @@
+
+.boks1 {
+    width: 70%; /*boksens bredde i prosent*/
+    height: 60px; /*boksens høyde i piksler*/
+    margin: 5px auto; /*topp- og bunnmarg 5 px, sidemarg auto*/
+    padding: 5px; /*avstand mellom bokskant og innhold*/
+    background-color: #329632; /*grønn*/
+}
+
+.boks2 {
+    width: 70%; /*boksens bredde i prosent*/
+    height: 60px; /*boksens høyde i piksler*/
+    margin: 5px auto; /*topp- og bunnmarg 5 px, sidemarg auto*/
+    padding: 5px; /*avstand mellom bokskant og innhold*/
+    background-color: #556677;
+}
+
+.boks3 {
+    width: 70%; /*boksens bredde i prosent*/
+    height: 60px; /*boksens høyde i piksler*/
+    margin: 5px auto; /*topp- og bunnmarg 5 px, sidemarg auto*/
+    padding: 5px; /*avstand mellom bokskant og innhold*/
+    background-color: #990044;
+}
+
+.boks4 {
+    width: 70%; /*boksens bredde i prosent*/
+    height: 60px; /*boksens høyde i piksler*/
+    margin: 5px auto; /*topp- og bunnmarg 5 px, sidemarg auto*/
+    padding: 5px; /*avstand mellom bokskant og innhold*/
+    background-color: #000000; /*grønn*/
+}
+
+    
+.lenkervannrett li {
+    list-style-type: none; /* fjerner kulepunkter */
+    margin: 10px; /*mellomrom*/
+    padding: 0px; /*fjerner alle mellomrom*/
+}
+.lenkervannrett li {
+    display: inline; /*gjør listepunktene til inline*/
+}
+.lenkervannrett li a {
+    padding: 10px 30px; /*avstand mellom bokskant og innhold*/
+    color: #333333;
+    font-weight: bold;
+    text-decoration: none; /*fjerner understrek*/
+    background-color: #f04605;
+}
+.lenkervannrett li a:hover {
+    background-color: #ebe584;
+}
+   
+
+.innpakning {
+    width: 800px; /*innpakningens bredde*/
+    background-color: transparent; /*transparent*/
+    margin: auto; /*like stor høyre- og venstremarg*/
+    display: flex; /*angir at vi vil bruke flexbox*/
+    flex-direction: column; /*plasserer bokser i en kolonne*/
+}
+
+.topptekst {
+    height: 120px; /*overskrift-/toppteksthøyde*/
+    background-color: #909090; /*en lys gråfarge*/
+    padding: 5px; /*avstand mellom bokskant og innhold*/
+    margin: 5px; /*luft rundt overskrift-/topptekstboks*/
+}
+    
+.meny {
+    background-color: #f04605; /*oransje farge*/
+    padding: 5px; /*avstand mellom bokskant og innhold*/
+    margin: 5px; /*luft rundt menyboks*/
+}
+
+.innhold {
+    background-color: #909090; /*en lys gråfarge*/
+    padding: 5px; /*avstand mellom bokser og innhold*/
+    margin: 5px; /*luft rundt innholdsboks*/
+}
+
+.bunntekst {
+    height: 50px; /*overskrift-/toppteksthøyde*/
+    background-color: #909090; /*en lys gråfarge*/
+    padding: 5px; /*avstand mellom bokskant og innhold*/
+    margin: 5px; /*luft rundt overskrift-/topptekstboks*/
+}
+
+.innpakningsidestilt {
+    width: 100%; /*innpakningens bredde - ved å angi 100% lar vi innpaknings-boksen fylle hele nettleserens vindu*/
+    background-color: transparent; /*transparent*/
+    margin: auto; /*like stor høyre- og venstremarg*/
+    display: flex; /*angir at vi vil bruke flexbox*/
+    flex-direction: row; /*plasserer bokser i en kolonne*/
+    flex-wrap: wrap; /*lar oss bryte rader*/
+}
+
+.topptekstsidestilt {
+    flex-basis: 100%; /*fyller innpakningens bredde*/
+    height: 120px; /*overskrift-/toppteksthøyde*/
+    background-color: #909090; /*en lys gråfarge*/
+    padding: 5px; /*avstand mellom bokskant og innhold*/
+    margin: 5px; /*luft rundt overskrift-/topptekstboks*/
+    order: 1; /*angir rekkefølgen på boksene*/
+}
+    
+.menysidestilt {
+    flex-basis. 200px; /*aldri smalere enn 200 px*/
+    background-color: #329632; /*grønn*/
+    padding: 5px; /*avstand mellom bokskant og innhold*/
+    margin: 5px; /*luft rundt menyboks*/
+    order: 1; /*angir rekkefølgen på boksene*/
+}
+
+.innholdsidestilt {
+    background-color: #909090; /*en lys gråfarge*/
+    flex: 1; /*fyller ut all ledig plass i bredden*/
+    order: 3; /*angir rekkefølgen på boksene*/
+    padding: 5px; /*avstand mellom bokser og innhold*/
+    margin: 5px; /*luft rundt innholdsboks*/
+}
+
+.bunntekstsidestilt {
+    flex-basis: 100%; /*fyller innpakningens bredde*/
+    height: 50px; /*overskrift-/toppteksthøyde*/
+    background-color: #909090; /*en lys gråfarge*/
+    padding: 5px; /*avstand mellom bokskant og innhold*/
+    margin: 5px; /*luft rundt overskrift-/topptekstboks*/
+    order: 4; /*angir rekkefølgen på boksene*/
+}
