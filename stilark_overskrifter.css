@@ -1,0 +1,10 @@
+
+
+.topptekst {
+    width: 100%; /*boksens bredde, som nå kan være fleksibel*/
+    height: 300px; /*boksens høyde*/
+    background-color: #3ae324; /*samme som i bildet (koden kan finnes ved å høyreklikke på fargen i photoshop)*/
+    background-image: url('flere_lag.jpg'); /*bildet vårt*/
+    background-repeat: no-repeat; /*unngå at bildet repeteres*/
+    background-position: left bottom; /*bildets plassering*/
+}
