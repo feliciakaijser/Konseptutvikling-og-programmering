@@ -1,3 +1,7 @@
+AddType application/x-httpd-php .php 
+AddType application/x-httpd-phps .phps 
+AddType application/x-httpd-php3 .php3 .phtml 
+
 <!doctype html>
 <html>
 <head>
