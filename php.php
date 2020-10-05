@@ -16,14 +16,14 @@ $tall = 23;
 
 //Her blir verdien i variabelen $tall endret til 42.
 $tall = 42;
-echo "<p>Nå er tallet $tall. </p>
+echo "<p> Nå er tallet $tall. </p>;
 ?>
 
 <p> Fordi denne teksten ikke er omsluttet av php-taggene, kan jeg skrive som om jeg jobber i et vanligt HTML-dokument, </p>
 
 <?php
-echo "<p> Her er vi tilbake i PHP, da må jeg bruke echo for å skrive HTML-kode. </p>; 
-echo "<p> Variabelen jeg definerte i starten av dokumentet, finnes fremledes, tallet er $tall. </p>;
+echo "<p> Her er vi tilbake i PHP, da må jeg bruke echo for å skrive HTML-kode. </p>";
+echo "<p> Variabelen jeg definerte i starten av dokumentet, finnes fremledes, tallet er $tall. </p>";
 ?>
 
 </body>
