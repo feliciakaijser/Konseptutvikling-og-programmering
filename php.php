@@ -13,6 +13,7 @@
 <?php
 // her angis variablene $tall. Den får verdien 23.
 $tall = 23;
+echo "<p>Tallet er $tall. </p>"; 
 
 //Her blir verdien i variabelen $tall endret til 42.
 $tall = 42;
