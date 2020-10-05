@@ -5,11 +5,6 @@
     <title> Kapittel 10 </title>
     <!-- UTF-8 gjør at vi kan bruke æ, ø og å -->
     <meta charset="UTF-8">
-AddType application/x-httpd-php .php 
-AddType application/x-httpd-phps .phps 
-AddType application/x-httpd-php3 .php3 .phtml 
-
- 
 </head>
 <body>
     <h1> Felicias php-dokument </h1>
